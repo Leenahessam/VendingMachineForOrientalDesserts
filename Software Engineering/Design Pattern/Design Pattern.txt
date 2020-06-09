@@ -1,0 +1,26 @@
+-> Proxy Pattern on Validating -> Done -> Validating
+-> private data class Pattern -> Done -> Order and Extras
+-> abstract Factory Pattern -> User Controller ---= Done
+-> Iterator Pattern in Orders of Vending Machine
+-> MVC Pattern On Architecture
+-> Data Access Pattern -> Failed -> We Can apply on Controller too.
+
+-> Proxy Pattern Comes Under Stuctural Design Pattern, here we create object from each Validator Type Interface To 
+interface its functionality to outer world(Controllers) -> System Controller as it is the main controller for system.
+
+
+->private Data Class Pattern Comes Structural Design Pattern, here we Make Class that Carry Private Data and The Another Class Extends 
+The Another in order To Access its Attribute but with setter and getters as they are private data.
+
+
+->abstract Factory Pattern -> it is one of the most used patterns, this type comes under creational pattern one as this pattern have 
+a best way to create object. abstract Function Inside User Controller Both Admin and User Controllers Interfaced it.
+
+->Iterator Pattern -> Comes under Behavourial Pattern, we Used It To iterate Collection. we use it in iterating extras for each order item
+for each material in machine and each order inside machine private iterator class for each one.
+
+
+-> MVC Pattern -> stands for Model - view - Controller Pattern, We Use It in Our whole system as basic architicture 
+model carry data and controllers are the part that config and where functionality of model takes place. our view here is the machine
+
+
